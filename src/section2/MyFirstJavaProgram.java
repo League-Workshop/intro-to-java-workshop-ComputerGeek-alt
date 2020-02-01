@@ -7,9 +7,16 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
-	
-		
-		
-	}
+		Robot zoomer = new Robot();
+		zoomer.setSpeed(30);
+		zoomer.penDown();
+		zoomer.move(100);
+		zoomer.turn(90);
+		zoomer.move(100);
+		zoomer.turn(90);
+		zoomer.move(100);
+		zoomer.turn(90);
+		zoomer.move(100);
+		zoomer.turn(90);
+	}	
 }
